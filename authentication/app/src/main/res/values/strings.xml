@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Authentication</string>
+    <string name="text_email">E-Mail</string>
+    <string name="text_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="text_forgot_password">Forgot Password ?</string>
+    <string name="text_name">Name</string>
+    <string name="text_log_out">Log Out</string>
+    <string name="text_editText_error">Invalid E-mail</string>
+    <string name="text_back">Back</string>
+    <string name="text_close">Close</string>
+    <string name="text_dialog_error">Something is not right…\nPlease check the information and try again!</string>
+    <string name="text_dialog_success">Action performed successfully!</string>
+    <string name="text_toast_error">"Sorry Something went wrong…"</string>
+    <string name="text_welcome">Olá!</string>
+    <string name="text_this_is_bad">This is bad!</string>
+</resources>

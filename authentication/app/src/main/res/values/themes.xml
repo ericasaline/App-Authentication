@@ -1,0 +1,74 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Authentication" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/gray</item>
+
+        <!-- Status Bar -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Input Text -->
+    <style name="InputText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">27dp</item>
+        <item name="boxCornerRadiusBottomStart">27dp</item>
+        <item name="boxCornerRadiusTopStart">27dp</item>
+        <item name="boxCornerRadiusTopEnd">27dp</item>
+        <item name="boxStrokeColor">@color/yellow</item>
+        <item name="android:layout_marginStart">18dp</item>
+        <item name="android:layout_marginEnd">18dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <!-- Edit Text -->
+    <style name="EditText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!-- text Fields -->
+    <style name="TextFields">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Text -->
+    <style name="Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!-- Button -->
+    <style name="Button" parent="TextFields">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginStart">18dp</item>
+        <item name="android:layout_marginEnd">18dp</item>
+        <item name="cornerRadius">27dp</item>
+        <item name="backgroundTint">@color/orange</item>
+    </style>
+
+    <!-- Alert Dialog -->
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- Dialog Title -->
+    <style name="DialogTitle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:layout_marginStart">18dp</item>
+        <item name="android:layout_marginEnd">18dp</item>
+    </style>
+</resources>
